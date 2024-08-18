@@ -1,0 +1,56 @@
+name: my_business_card_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_native_splash:
+  color: "#F6F4EB"   # Color of the background of the splash screen 
+  image: images/splash_screen.png  # image path
+  android_12:
+    image: images/splash_screen.png  # image path
+    color: "#F6F4EB"   # Color of the background of the splash screen 
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/icon.png"  # Logo image path 
+  min_sdk_android: 21
+
+
+  # flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
